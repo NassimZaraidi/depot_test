@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- on va lier l'API de Font Awesome à notre page-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/asset/style.css" />
+    <!-- appel de script d'un fichier javascript externe à l'HTML -->
+    <script src="/asset/app.js"></script>
+    <title>depot github</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <header>
+        <h1>Depot Github</h1>
+      </header>
+      <h2>Création d'un projet Git depuis Github</h2>
+      <section>
+        <div class="illustration">
+          <img
+            src="/asset/médias/images/Capture d’écran 2022-12-23 114613.png"
+            alt="illustration"
+          />
+        </div>
+        <div class="instruction">
+          <ol>
+            <li>Va sur Github</li>
+            <li>
+              Créé un nouveau dépôt, en cochant la case pour avoir un README.md
+            </li>
+            <li>Va sur la page d'accueil du projet</li>
+            <li>
+              Récupere le lien du dépôt en cliquant sur le bouton
+              <button class="code"><i class="fa-solid fa-code"></i>code</button>
+            </li>
+            <li>Se placer dans le dossier de travail de VScode</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+    <!-- intégration de script directement dans l'HTML -->
+    <script>
+      console.log("lache ton logo");
+    </script>
+  </body>
+</html>
